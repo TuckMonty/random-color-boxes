@@ -4,7 +4,11 @@ import BoxGrid from './BoxGrid';
 
 class App extends Component {
   
+  componentDidMount() {
+    document.title = "Random Color Box"
+  }
   render() {
+    
     
     return (
       <div className="App">
